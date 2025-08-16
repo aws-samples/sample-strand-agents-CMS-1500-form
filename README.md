@@ -27,8 +27,6 @@ An AI-powered insurance data processing system that transforms patient insurance
 
 ## Installation
 
-- **Python**: Version 3.10 or higher
-
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/purnasanyal/Strand-agents-for-CMS-1500-form.git
