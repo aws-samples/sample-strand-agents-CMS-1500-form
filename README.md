@@ -29,7 +29,7 @@ An AI-powered insurance data processing system that transforms patient insurance
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/purnasanyal/Strand-agents-for-CMS-1500-form.git
+   git clone [https://github.com/purnasanyal/Strand-agents-for-CMS-1500-form.git](https://github.com/aws-samples/sample-strand-agents-CMS-1500-form.git)
    
    ```
 
