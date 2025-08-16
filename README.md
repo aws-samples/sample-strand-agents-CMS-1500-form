@@ -15,23 +15,14 @@ An AI-powered insurance data processing system that transforms patient insurance
 
 ## Prerequisites
 
-
-
--•	Python: Version 3.10 or higher
-•	AWS Account: Active AWS account 
-•	Amazon Bedrock Access: Access to Amazon Bedrock service in us-east-1 region for the following models:
-o	Claude 3.5 Sonnet v2: use cross region inference  us.anthropic.claude-3-5-sonnet-20240620-v1:0 model
-o	Nova Pro: use cross region inference   us.amazon.nova-pro-v1:0modell
-o	llama4-scout-17b-instructt: use cross region inference   us.meta.llama4-scout-17b-instruct-v1:0
-•	AWS Credentials: Properly configured AWS credentials (via AWS CLI, IAM roles, or environment variables) 
-•	Amazon SageMaker Studio: Access to Jupyter notebook for development (optional)
-
+- **Python:** Version 3.10 or higher
 - **AWS Account**: Active AWS account with appropriate permissions
 - **Amazon Bedrock Access**: Access to Amazon Bedrock service in `us-east-1` region for the folloiwng models:
-   - **Claude 3.5 Sonnet Model**: Enable access to `us.anthropic.claude-3-5-sonnet-20240620-v1:0` model
-   - **Nova Pro**: Enable access to `us.amazon.nova-pro-v1:0`model
-   - **Llama llama4-scout-17b-instructt**: Enable access to `us.meta.llama3-1-8b-instruct-v1:0`
+   - **Claude 3.5 Sonnet v2 Model**: use cross region inference  us.anthropic.claude-3-5-sonnet-20240620-v1:0
+   - **Nova Pro**: use cross region inference   us.amazon.nova-pro-v1:0
+   - **llama4-scout-17b-instructt**: use cross region inference   us.meta.llama4-scout-17b-instruct-v1:0
 - **AWS Credentials**: Properly configured AWS credentials (via AWS CLI, IAM roles, or environment variables)
+- **Amazon SageMaker AI Studio:** Access to Jupyter notebook for development (optional)
 
 
 ## Installation
