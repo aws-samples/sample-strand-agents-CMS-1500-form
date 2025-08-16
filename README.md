@@ -28,28 +28,31 @@ An AI-powered insurance data processing system that transforms patient insurance
 ## Installation
 
 1. **Clone the repository**:
-
+```bash
    git clone https://github.com/aws-samples/sample-strand-agents-CMS-1500-form.git
-  
+   ``` 
 
-3. **Install dependencies**:
-  ```bash
+2. **Install dependencies**:
+```bash
    pip install -r requirements.txt
    ```
 
-4. **Configure AWS credentials** :
+3. **Configure AWS credentials** :
   
-   # AWS CLI
+**AWS CLI**
+```bash
    aws configure
-   
-   # Environment variables
+   ```
+**Environment variables**
+```bash
    export AWS_ACCESS_KEY_ID=your_access_key
    export AWS_SECRET_ACCESS_KEY=your_secret_key
    export AWS_DEFAULT_REGION=us-east-1
-  
+   ```
 
-5. **Verify Amazon Bedrock access**:
-   ```bash
+4. **Verify Amazon Bedrock access**:
+   
+```bash
    aws bedrock list-foundation-models --region us-east-1
    ```
 
