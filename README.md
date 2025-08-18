@@ -71,7 +71,7 @@ The system follows a straightforward data processing pipeline:
 ### Basic Usage
 
 1. **Review the files**:
-   - Golden schema file (e.g., `golden-schema-v2.xlsx`) 
+   - Golden schema file (e.g., `golden-schema.xlsx`) 
    - JSON patient data file (e.g., `anonymized-patient-data.json`) 
 
 2. **Update file paths** in `insurance_strands_agent.py`, provide full file path:
