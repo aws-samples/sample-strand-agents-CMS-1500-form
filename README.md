@@ -76,7 +76,7 @@ The system follows a straightforward data processing pipeline:
 
 2. **Update file paths** in `insurance_strands_agent.py`, provide full file path:
    ```python
-   SCHEMA_PATH = '/home/sagemaker-user/Strand-PCC/golden-schema-v2.xlsx'
+   SCHEMA_PATH = '/home/sagemaker-user/Strand-PCC/golden-schema.xlsx'
    JSON_PATH = '/home/sagemaker-user/Strand-PCC/anonymized-patient-data.json'
    OUTPUT_PATH = '/home/sagemaker-user/Strand-PCC/llama4-insurance_plans_output.csv'
    ```
