@@ -17,7 +17,7 @@ An AI-powered insurance data processing system that transforms patient insurance
 
 - **Python:** Version 3.10 or higher
 - **AWS Account**: Active AWS account with appropriate permissions
-- **Amazon Bedrock Access**: Access to Amazon Bedrock service in `us-east-1` region for the folloiwng models:
+- **Amazon Bedrock [Access](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html)**: Access to Amazon Bedrock service in `us-east-1` region for the folloiwng models:
    - **Claude 3.5 Sonnet v2**: use cross region inference  us.anthropic.claude-3-5-sonnet-20240620-v1:0
    - **Nova Pro**: use cross region inference   us.amazon.nova-pro-v1:0
    - **llama4-scout-17b-instructt**: use cross region inference   us.meta.llama4-scout-17b-instruct-v1:0
